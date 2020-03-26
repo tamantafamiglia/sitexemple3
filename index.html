@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Et ça dit quoi ?</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="base_menu_haut.css">
+</head>
+
+<body id="haut">
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#haut" id="titre" onclick="closeNav()">Et ça dit quoi ?</a>
+		<span id="infos">Journal de l'ESAD de Reims<br>
+			<strong>No 2 / 1er semestre 2020</strong><br>
+		</span>
+
+		
+		<div id="list">
+		<a href="index.html" target="_self" onclick="closeNav()">Accueil</a>
+		<a href="menu_haut_page1.html" target="_self" onclick="closeNav()">Rubrique 1</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 2</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 3</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 4</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 5</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 6</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 7</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 8</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 9</a>
+		<a href="#galerie" onclick="closeNav()">Rubrique 10</a>
+		</div>
+	</div>
+
+
+	<span id="titrenav" onclick="openNav()">&#9776; <span>Et ça dit quoi ?</span></span>
+
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.height = "50vh";
+			document.getElementById("mySidenav").style.minheight = "450px";
+			document.getElementById("mySidenav").style.width = "100vw";
+
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.height = "0";
+			document.getElementById("mySidenav").style.minheight = "0";
+			document.getElementById("mySidenav").style.width = "100vw";
+		}
+	</script>
+
+
+
+	<div id="content">
+		
+		
+		<div id="hello_accueil">
+		Hello ! <br>Hello !<br>Hello !
+
+
+		</div>
+
+
+		
+		
+
+	</div>
+</body>
+
+</html>

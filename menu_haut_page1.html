@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Et ça dit quoi ?</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="base_menu_haut.css">
+</head>
+
+<body id="haut">
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#haut" id="titre" onclick="closeNav()">Et ça dit quoi ?</a>
+		<span id="infos">Journal de l'ESAD de Reims<br>
+			<strong>No 2 / 1er semestre 2020</strong><br>
+		</span>
+
+		
+		
+		<div id="list">
+			<a href="index.html" target="_self" onclick="closeNav()">Accueil</a>
+			<a href="menu_haut_page1.html" target="_self" onclick="closeNav()">Rubrique 1</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 2</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 3</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 4</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 5</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 6</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 7</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 8</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 9</a>
+			<a href="#galerie" onclick="closeNav()">Rubrique 10</a>
+			</div>
+	</div>
+
+
+	<span id="titrenav" onclick="openNav()">&#9776; <span>Et ça dit quoi ?</span></span>
+
+	
+	
+	
+	<script>
+		function openNav() {
+			document.getElementById("mySidenav").style.height = "50vh";
+			document.getElementById("mySidenav").style.minheight = "450px";
+			document.getElementById("mySidenav").style.width = "100vw";
+
+		}
+
+		function closeNav() {
+			document.getElementById("mySidenav").style.height = "0";
+			document.getElementById("mySidenav").style.minheight = "0";
+			document.getElementById("mySidenav").style.width = "100vw";
+		}
+	</script>
+
+
+
+	<div id="content">
+		
+		<h2 id="propos">Super titre !</h2>
+		<div id="intro">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et gravida mi. Curabitur ullamcorper felis pretium, ornare purus et, euismod erat. Proin felis mauris, ultrices in dignissim non, varius sed dui. Praesent auctor enim id scelerisque feugiat. Etiam mauris ante, volutpat quis efficitur ac, vulputate nec neque. Integer tristique, enim vitae suscipit malesuada, dolor quam tempor ante, a egestas leo ex et tortor. Phasellus elementum, elit viverra efficitur posuere, nulla sem lobortis nisi, eu luctus justo neque vel dolor. Vestibulum dapibus turpis et euismod tempus. Vestibulum convallis et elit id bibendum. Aenean pharetra elementum nulla, faucibus aliquet sapien lobortis eget. Proin in semper erat. Donec vel pretium lorem, et cursus justo. Vivamus dui tortor, rutrum a egestas ut, iaculis ut ipsum. Curabitur id sollicitudin nisl. Donec non hendrerit ex.</p>
+
+		<p>Aliquam pulvinar a ligula id imperdiet. Fusce eu neque eget dolor sodales maximus. Vivamus et massa sit amet orci facilisis malesuada. Quisque erat est, tincidunt eu dictum a, molestie quis massa. Praesent posuere laoreet eros, eu lobortis lacus cursus eu. Aliquam ultrices metus eget aliquet dictum. In hac habitasse platea dictumst. Mauris pulvinar feugiat tortor, eget suscipit neque dictum ac.</p>
+
+		<p>Phasellus eget mollis purus, in ultrices erat. Sed iaculis id tortor eu mattis. Proin nibh lacus, scelerisque sit amet feugiat ut, tincidunt eu augue. Pellentesque rhoncus nibh ut interdum sodales. Integer ornare hendrerit iaculis. Quisque gravida accumsan risus quis accumsan. Donec posuere, lorem sit amet bibendum efficitur, elit urna dictum arcu, et auctor mi ipsum at sem. Cras congue elit sed rhoncus ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec pharetra odio ut enim malesuada, sed tempor velit blandit. Nullam in feugiat metus. Ut cursus magna vitae scelerisque laoreet. Maecenas ac elit dui. Fusce sed imperdiet mauris. Morbi ac mauris a ante luctus lacinia.</p>
+
+		</div>
+
+
+		
+		
+
+	</div>
+</body>
+
+</html>
